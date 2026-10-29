@@ -1,0 +1,350 @@
+{
+  "contacts": [
+    {
+      "id": "c1",
+      "name": "Maria Lopez",
+      "email": "maria@example.com",
+      "phone": "555-0101",
+      "company": "Sunrise Bakery",
+      "notes": [
+        {
+          "id": "n1",
+          "text": "Met at the farmers market. Wants online ordering.",
+          "createdAt": "2026-10-03T15:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Tom Baker",
+      "email": "tom@example.com",
+      "phone": "555-0102",
+      "company": "Baker Hardware",
+      "notes": []
+    },
+    {
+      "id": "c3",
+      "name": "Dana Reyes",
+      "email": "dana@example.com",
+      "phone": "555-0103",
+      "company": "Palm Street Cafe",
+      "notes": [
+        {
+          "id": "n2",
+          "text": "Asked for a quote by Friday.",
+          "createdAt": "2026-10-12T10:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Carlos Vega",
+      "email": "carlos@example.com",
+      "phone": "555-0104",
+      "company": "Blue Harbor Studio",
+      "notes": []
+    },
+    {
+      "id": "c5",
+      "name": "Priya Shah",
+      "email": "priya@example.com",
+      "phone": "555-0105",
+      "company": "Green Door Gym",
+      "notes": []
+    },
+    {
+      "id": "c6",
+      "name": "Sam Ito",
+      "email": "sam@example.com",
+      "phone": "555-0106",
+      "company": "Sunset Books",
+      "notes": []
+    },
+    {
+      "id": "c7",
+      "name": "Nora Webb",
+      "email": "nora@example.com",
+      "phone": "555-0107",
+      "company": "Webb Dental",
+      "notes": []
+    },
+    {
+      "id": "c8",
+      "name": "Elena Park",
+      "email": "elena@example.com",
+      "phone": "555-0108",
+      "company": "Harbor Table Catering",
+      "notes": [
+        {
+          "id": "n3",
+          "text": "Wants a simple site with a lunch menu and a contact form.",
+          "createdAt": "2026-10-24T14:20:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "name": "Marcus Bell",
+      "email": "marcus@example.com",
+      "phone": "555-0109",
+      "company": "Bell Auto Repair",
+      "notes": []
+    }
+  ],
+  "deals": [
+    {
+      "id": "d1",
+      "title": "Online ordering setup",
+      "contactId": "c1",
+      "value": 4000,
+      "stage": "Lead",
+      "closeDate": "2026-11-15",
+      "notes": [
+        {
+          "id": "dn1",
+          "text": "Sent the first quote. Waiting to hear back.",
+          "createdAt": "2026-10-20T16:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "title": "Inventory app",
+      "contactId": "c2",
+      "value": 2500,
+      "stage": "Lead",
+      "closeDate": "2026-11-30",
+      "notes": []
+    },
+    {
+      "id": "d3",
+      "title": "Cafe website",
+      "contactId": "c3",
+      "value": 6000,
+      "stage": "Qualified",
+      "closeDate": "2026-11-10",
+      "notes": [
+        {
+          "id": "dn2",
+          "text": "Agreed on a 3 page site. Needs menu photos.",
+          "createdAt": "2026-10-22T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "title": "Booking system",
+      "contactId": "c4",
+      "value": 9000,
+      "stage": "Proposal",
+      "closeDate": "2026-11-05",
+      "notes": [
+        {
+          "id": "dn3",
+          "text": "Proposal sent. Carlos wants a call about price.",
+          "createdAt": "2026-10-26T09:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "title": "Member app",
+      "contactId": "c5",
+      "value": 12000,
+      "stage": "Won",
+      "closeDate": "2026-10-14",
+      "notes": [
+        {
+          "id": "dn4",
+          "text": "Signed and paid the first half.",
+          "createdAt": "2026-10-14T17:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "title": "Shop newsletter",
+      "contactId": "c6",
+      "value": 1500,
+      "stage": "Won",
+      "closeDate": "2026-10-22",
+      "notes": []
+    },
+    {
+      "id": "d7",
+      "title": "Patient reminders",
+      "contactId": "c7",
+      "value": 8000,
+      "stage": "Lost",
+      "closeDate": "2026-10-18",
+      "notes": [
+        {
+          "id": "dn5",
+          "text": "Went with a bigger vendor.",
+          "createdAt": "2026-10-18T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d8",
+      "title": "Staff schedule tool",
+      "contactId": "c9",
+      "value": 3200,
+      "stage": "Won",
+      "closeDate": "2026-09-18",
+      "notes": []
+    },
+    {
+      "id": "d9",
+      "title": "Lunch menu website",
+      "contactId": "c8",
+      "value": 5400,
+      "stage": "Qualified",
+      "closeDate": "2026-11-20",
+      "notes": [
+        {
+          "id": "dn6",
+          "text": "Elena likes the cafe site we built. Wants something similar.",
+          "createdAt": "2026-10-24T14:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d10",
+      "title": "Repair shop booking page",
+      "contactId": "c9",
+      "value": 2800,
+      "stage": "Lead",
+      "closeDate": "2026-12-01",
+      "notes": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Send revised quote to Maria",
+      "dueDate": "2026-10-26",
+      "contactId": "c1",
+      "dealId": "d1",
+      "done": false
+    },
+    {
+      "id": "t2",
+      "title": "Call Tom about the inventory demo",
+      "dueDate": "2026-10-27",
+      "contactId": "c2",
+      "dealId": "d2",
+      "done": false
+    },
+    {
+      "id": "t3",
+      "title": "Email Dana the menu photo checklist",
+      "dueDate": "2026-10-29",
+      "contactId": "c3",
+      "dealId": "d3",
+      "done": false
+    },
+    {
+      "id": "t4",
+      "title": "Call Carlos about the booking price",
+      "dueDate": "2026-10-29",
+      "contactId": "c4",
+      "dealId": "d4",
+      "done": false
+    },
+    {
+      "id": "t5",
+      "title": "Check in with Elena about her site",
+      "dueDate": "2026-10-30",
+      "contactId": "c8",
+      "dealId": "d9",
+      "done": false
+    },
+    {
+      "id": "t6",
+      "title": "Send Marcus a short demo video",
+      "dueDate": "2026-11-02",
+      "contactId": "c9",
+      "dealId": "d10",
+      "done": false
+    },
+    {
+      "id": "t7",
+      "title": "Ask Priya for a testimonial",
+      "dueDate": "2026-11-05",
+      "contactId": "c5",
+      "dealId": "d5",
+      "done": false
+    },
+    {
+      "id": "t8",
+      "title": "Plan the quarterly review",
+      "dueDate": "2026-11-12",
+      "contactId": "",
+      "dealId": "",
+      "done": false
+    },
+    {
+      "id": "t9",
+      "title": "Send thank you note to Sam",
+      "dueDate": "2026-10-23",
+      "contactId": "c6",
+      "dealId": "d6",
+      "done": true,
+      "doneAt": "2026-10-23T15:00:00.000Z"
+    },
+    {
+      "id": "t10",
+      "title": "Book intro call with Elena",
+      "dueDate": "2026-10-24",
+      "contactId": "c8",
+      "dealId": "",
+      "done": true,
+      "doneAt": "2026-10-24T13:00:00.000Z"
+    }
+  ],
+  "activity": [
+    {
+      "id": "a5",
+      "text": "Note added to Carlos Vega's deal: Booking system",
+      "at": "2026-10-26T09:00:00.000Z",
+      "href": "/deals/d4"
+    },
+    {
+      "id": "a2",
+      "text": "Note added to Elena Park",
+      "at": "2026-10-24T14:20:00.000Z",
+      "href": "/contacts/c8"
+    },
+    {
+      "id": "a1",
+      "text": "Task done: Book intro call with Elena",
+      "at": "2026-10-24T13:00:00.000Z",
+      "href": "/tasks"
+    },
+    {
+      "id": "a3",
+      "text": "Task done: Send thank you note to Sam",
+      "at": "2026-10-23T15:00:00.000Z",
+      "href": "/tasks"
+    },
+    {
+      "id": "a4",
+      "text": "Deal won: Shop newsletter ($1,500)",
+      "at": "2026-10-22T16:00:00.000Z",
+      "href": "/deals/d6"
+    },
+    {
+      "id": "a6",
+      "text": "Deal won: Member app ($12,000)",
+      "at": "2026-10-14T17:30:00.000Z",
+      "href": "/deals/d5"
+    },
+    {
+      "id": "a7",
+      "text": "New deal: Repair shop booking page",
+      "at": "2026-10-12T10:00:00.000Z",
+      "href": "/deals/d10"
+    }
+  ]
+}
